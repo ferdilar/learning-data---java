@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.ControllerMenu">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#toModel" text="Model" />
+            <Button contentDisplay="CENTER" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" onAction="#toTesting" text="Testing" />
+            <Button contentDisplay="CENTER" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" onAction="#toEvaluation" text="Evaluation" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>
